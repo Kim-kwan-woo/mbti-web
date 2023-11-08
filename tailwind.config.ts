@@ -17,4 +17,18 @@ const config: Config = {
   },
   plugins: [],
 }
+
+module.exports = {
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  theme: {
+    colors: {
+      'primary': '#337aff',
+      'subColor': '#e5eeff',
+      'grayscale': '#d9d9d9',
+      'white': '#ffffff',
+    },
+  },
+  plugins: [],
+}
+
 export default config
