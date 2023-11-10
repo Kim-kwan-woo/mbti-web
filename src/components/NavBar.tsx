@@ -10,7 +10,7 @@ import {
 
 export default function NavBar() {
     return (
-        <nav className='flex place-content-between mx-16 my-10'>
+        <nav className='flex place-content-between px-16 py-10 bg-subColor'>
             <Link href='/' className='font-bold text-primary'>MBTI 테스트</Link>
             <div className='hidden md:flex space-x-10'>
                 <Link href='/test'>
