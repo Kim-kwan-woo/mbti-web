@@ -21,7 +21,7 @@ export default function NavBar() {
                 </Link>
             </div>
             <div className='md:hidden flex items-center'>
-                <Dropdown placement='bottom-end'>
+                <Dropdown placement='bottom-end' type='listbox'>
                     <DropdownTrigger>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -38,8 +38,8 @@ export default function NavBar() {
                             />
                         </svg>
                     </DropdownTrigger>
-                    <DropdownMenu className='md:hidden flex bg-subColor text-center text-sm p-4 rounded-lg gap-2' aria-label="Menu Actions" color='danger' variant="bordered" selectionMode='none' >
-                        <DropdownItem href='/test' className='p-1'>
+                    <DropdownMenu className='md:hidden flex text-sm p-4 bg-subColor rounded-lg' aria-label="Menu Actions" color="danger" variant="flat" defaultSelectedKeys="all" disallowEmptySelection={true} >
+                        <DropdownItem href='/test' className='p-1 bg-transparent'>
                             테스트 하러 가기
                         </DropdownItem>
                         <DropdownItem href='/dictionary' className='p-1'>

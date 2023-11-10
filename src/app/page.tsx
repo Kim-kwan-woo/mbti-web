@@ -10,8 +10,8 @@ export default function Home() {
         </div >
         <div className="flex flex-col bg-primary">
           <p className='text-white text-3xl font-bold mb-4'>당신의 MBTI는?</p>
-          <p className='text-grayscale text-xl'>내 엠비티아이는 뭘까?</p>
-          <p className='text-grayscale text-xl'>간단한 테스트를 통해 알아보자!</p>
+          <p className='text-grayscale text-lg'>내 엠비티아이는 뭘까?</p>
+          <p className='text-grayscale text-lg'>간단한 테스트를 통해 알아보자!</p>
         </div>
       </div>
       <div className='flex flex-col md:flex-row place-items-center justify-center gap-8 m-10 text-center'>
