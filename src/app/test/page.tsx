@@ -57,5 +57,5 @@ export const useXXX = () => {
         data,
         isLoading: isValidating,
         error,
-    };
-};
+    }
+}
