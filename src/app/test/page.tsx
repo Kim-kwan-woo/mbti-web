@@ -40,7 +40,7 @@ export default function Test() {
     )
 }
 
-export const useXXX = () => {
+const useXXX = () => {
     const { data, isValidating, error } = useSWR<{
         index: number;
         question: string;
