@@ -1,10 +1,15 @@
 'use server'
 
 export async function loadMbtiData() {
-    return mbti;
+    return mbtiList;
 }
 
-const mbti = [
+export async function getMyMbti(mbti: string) {
+    const result = mbtiList.find((e) => e.mbti === mbti)
+    return result
+}
+
+const mbtiList = [
     {
         "mbti": "INFJ",
         "type": "선의의 옹호자",

@@ -2,7 +2,7 @@ import { loadMbtiData } from "../actions/mbti.actions"
 
 export default async function Dictionary() {
 
-    const mbtiList = await loadMbtiData()
+    const mbtiList = await loadMbtiData();
 
     return (
         <div className=" p-16">
